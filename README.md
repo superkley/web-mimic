@@ -18,6 +18,6 @@ $ python serve.py
 
 ## Demo
 
-* [Demo Page](https://www.2cn.de/mimic)
+* [Demo Page on 2cn.de](https://www.2cn.de/mimic)
 
-![Mimic Me Game Play](img/screenshot.jpg)
+![Mimic Me Demo](img/screenshot.png)
