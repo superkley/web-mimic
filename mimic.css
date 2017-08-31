@@ -1,0 +1,58 @@
+body { margin:0 auto; }
+
+div.left {
+  border-right: 1px solid #ccc;
+}
+
+div.top {
+  border-bottom: 1px solid #ccc;
+}
+
+#camera { width: 640px; height: 480px; padding: 0; }
+
+#game { height: 120px; }
+
+#target {
+  height: 80px;
+  font-family: Arial, sans-serif; font-size: 48pt;
+}
+
+#score {
+  font-family: Courier, monospace; font-size: 12pt; font-weight: bold;
+}
+
+#results {
+  min-height: 160px;
+  font-size: 10pt;
+  word-wrap: break-word;
+}
+
+#logs {
+  font-size: 10pt;
+}
+
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('ajax-loader.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
